@@ -1,0 +1,17 @@
+{
+  "name": "library",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "^6.10.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.10.0",
+    "fastify": "^5.4.0"
+  }
+}
